@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: lightblue;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+body {
+  background: rgb(117, 182, 117);
+  text-align: center;
+  align-items: center;
+}
+
+.image-container {
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.image {
+  border-radius: 20px;
+}
+
+.input {
+  padding: 10px 30px 10px 30px;
+  border-radius: 20px;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.button {
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  background-color: yellowgreen;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
